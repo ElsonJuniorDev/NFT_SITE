@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 1.5rem;
+  padding-block: 1.25rem;
+
+  max-width: 1280px;
+  margin-inline: auto;
+}
+.header_logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.nav_ul {
+  display: flex;
+  gap: 2rem;
+}
+.nav_li {
+  list-style: none;
+}
+.nav_a {
+  text-decoration: none;
+  color: inherit;
+}
+.header_btn {
+  display: none;
+}
+.header_icon {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+/*Responsividade*/
+
+@media (width < 768px) {
+  .header_nav {
+    display: none;
+  }
+  .header_btn {
+    display: block;
+  }
+}
