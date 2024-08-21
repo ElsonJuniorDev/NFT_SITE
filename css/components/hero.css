@@ -54,6 +54,7 @@
   .hero {
     gap: 2.5rem;
     flex-direction: column;
+    overflow: hidden;
   }
   .hero_title {
     max-width: 20ch;
