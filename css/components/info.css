@@ -74,3 +74,20 @@
   border-radius: 6px;
   color: #000;
 }
+
+@media (width < 1024px) {
+  .info_wrapper {
+    flex-direction: column;
+  }
+  .section_description {
+    max-width: 60ch;
+  }
+}
+@media (width < 475px) {
+  .section_title {
+    font-size: 2rem;
+  }
+  .info_left img {
+    max-width: 100%;
+  }
+}
