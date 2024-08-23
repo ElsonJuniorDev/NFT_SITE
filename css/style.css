@@ -3,8 +3,11 @@
 @import url(components/hero.css);
 @import url(components/info.css);
 @import url(components/features.css);
+@import url(components/info_2.css);
+@import url(components/register.css);
 
 @import url(components/reutilizaveis/tipografia.css);
+@import url(components/reutilizaveis/class.css);
 
 :root {
   --azul-text: #2eb1a3;

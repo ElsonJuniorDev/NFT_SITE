@@ -1,8 +1,5 @@
 
-.features {
-    max-width: 1280px;
-    margin-inline: auto;
-}
+
 .features_wrapper {
   background-color: #131325;
   padding: 4rem 2rem 2rem 2rem;
@@ -38,10 +35,12 @@
   position: absolute;
   left: 2rem;
   top: -3rem;
+  min-width: 115px;
 }
 .feature_card-title {
   font-size: 1.5rem;
   font-weight: 500;
+  padding-top: 1.2rem;
 }
 .feature_card-description {
   color: rgba(255, 255, 255, 0.6);

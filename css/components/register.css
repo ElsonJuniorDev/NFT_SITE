@@ -1,0 +1,53 @@
+.register {
+  padding-top: 6rem;
+}
+.register-wrarpper {
+  background: linear-gradient(to right, #e8546b, #ac3cf6);
+  border-radius: 1rem;
+  padding: 3rem;
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 6rem;
+}
+
+.register_text {
+  color: #000;
+}
+
+.register_text h2 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  max-width: 25ch;
+}
+.resgister_h2-barra {
+  position: relative;
+  z-index: 1;
+}
+.resgister_h2-barra::before {
+  content: "";
+  position: absolute;
+  bottom: 0.3rem;
+  left: 0;
+  background-color: #fff;
+  width: 100%;
+  height: 6px;
+  z-index: -1;
+}
+
+.register_text h3 {
+  font-size: 0.7rem;
+  font-weight: 600;
+  margin-block: 1rem;
+}
+.register_btn {
+  font-size: 0.8rem;
+  background: #000;
+  border-radius: 8px;
+  color: #fff;
+  display: inline-block;
+  max-width: max-content;
+  padding: 0.9em 2em;
+  text-decoration: none;
+}
+.btn-reg {
+}
