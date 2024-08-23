@@ -1,5 +1,5 @@
 .register {
-  padding-top: 6rem;
+  padding-block: 6rem;
 }
 .register-wrarpper {
   background: linear-gradient(to right, #e8546b, #ac3cf6);
@@ -48,6 +48,4 @@
   max-width: max-content;
   padding: 0.9em 2em;
   text-decoration: none;
-}
-.btn-reg {
 }
