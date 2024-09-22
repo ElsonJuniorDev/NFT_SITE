@@ -2,12 +2,16 @@
   display: flex;
   padding-inline: 1.25rem;
   padding-top: 6rem;
-  
   overflow: hidden;
+  
 }
 .hero_left,
 .hero_right {
   flex: 1;
+ 
+}
+.hero_left{
+  visibility: hidden;
 }
 
 .hero_lowTxt {
@@ -30,7 +34,6 @@
   font-weight: 300;
   line-height: calc(1em + 00.5rem);
   margin-block: 1.5rem;
-
   max-width: 55ch;
 }
 
@@ -45,6 +48,8 @@
 .hero_img {
   transform: rotate(15deg);
   max-width: 500px;
+ 
+  
 }
 
 /*Responsividade*/
@@ -69,4 +74,10 @@
   .hero_title {
     font-size: 2.5rem;
   }
+}
+
+/*animacao*/
+
+.animacao-img{
+  visibility: hidden;
 }

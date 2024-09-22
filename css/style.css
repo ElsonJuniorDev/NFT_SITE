@@ -31,6 +31,7 @@ body {
   font-family: "Poppins", sans-serif;
   color: #f3f3f3;
   background-color: #06061a;
+  
 }
 
 .bg {
@@ -52,3 +53,6 @@ h5,
 h6 {
   letter-spacing: -0.025em;
 }
+
+
+

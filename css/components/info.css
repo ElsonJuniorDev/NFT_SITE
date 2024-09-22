@@ -1,6 +1,6 @@
 .info {
   padding-top: 2rem;
-
+ 
 }
 
 .line {
@@ -89,4 +89,11 @@
   .info_left img {
     max-width: 100%;
   }
+}
+
+
+/*Animaçao*/
+
+.animacao-txt{
+  visibility: hidden;
 }
